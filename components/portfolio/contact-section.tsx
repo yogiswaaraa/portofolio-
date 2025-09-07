@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Mail, MapPin, Phone, Github, Linkedin, Twitter } from "lucide-react"
+import Link from "next/link"
 
 export function ContactSection() {
   return (
@@ -21,40 +22,37 @@ export function ContactSection() {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-primary" />
-                  <span className="text-foreground">your.email@example.com</span>
+                  <span className="text-foreground">yogiswarayogi@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-primary" />
-                  <span className="text-foreground">+1 (555) 123-4567</span>
+                  <span className="text-foreground">+6282225481276</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="w-5 h-5 text-primary" />
-                  <span className="text-foreground">Your City, Country</span>
+                  <span className="text-foreground">Yogyakarta, Indonesia</span>
                 </div>
               </div>
 
-              <div className="flex gap-4 mt-8">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="border-border hover:bg-accent hover:text-accent-foreground bg-transparent"
-                >
-                  <Github className="w-4 h-4" />
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="border-border hover:bg-accent hover:text-accent-foreground bg-transparent"
-                >
-                  <Linkedin className="w-4 h-4" />
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="border-border hover:bg-accent hover:text-accent-foreground bg-transparent"
-                >
-                  <Twitter className="w-4 h-4" />
-                </Button>
+               <div className="flex gap-4 mt-8">
+                <Link href="https://github.com/yogiswaaraa" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="border-border hover:bg-accent hover:text-accent-foreground bg-transparent"
+                  >
+                    <Github className="w-4 h-4" />
+                  </Button>
+                </Link>
+                <Link href="https://www.linkedin.com/in/yogi-swara/" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="border-border hover:bg-accent hover:text-accent-foreground bg-transparent"
+                  >
+                    <Linkedin className="w-4 h-4" />
+                  </Button>
+                </Link>
               </div>
             </div>
 

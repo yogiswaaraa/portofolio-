@@ -5,28 +5,25 @@ export function SkillsSection() {
     {
       title: "Frontend",
       skills: [
-        { name: "React", level: 90 },
-        { name: "Next.js", level: 85 },
-        { name: "TypeScript", level: 80 },
-        { name: "Tailwind CSS", level: 95 },
+        { name: "Angular", level: 90 },
+        { name: "React", level: 95 },
+        { name: "HTML & CSS", level: 95 },
+        { name: "Tailwind CSS", level: 85 },
+      ],
+    },
+    {
+      title: "Mobile",
+      skills: [
+        { name: "Flutter", level: 90 },
+        { name: "Kotlin", level: 80 },
+        { name: "Java", level: 80 },
       ],
     },
     {
       title: "Backend",
       skills: [
-        { name: "Node.js", level: 85 },
-        { name: "Python", level: 75 },
-        { name: "PostgreSQL", level: 80 },
-        { name: "MongoDB", level: 70 },
-      ],
-    },
-    {
-      title: "Tools & Others",
-      skills: [
-        { name: "Git", level: 90 },
-        { name: "Docker", level: 70 },
-        { name: "AWS", level: 65 },
-        { name: "Figma", level: 80 },
+        { name: "Laravel", level: 85 },
+        { name: "Firebase", level: 75 },
       ],
     },
   ]

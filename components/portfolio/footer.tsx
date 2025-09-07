@@ -4,7 +4,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="text-center">
           <p className="text-muted-foreground">
-            © 2024 Your Name. All rights reserved. Built with Next.js and hosted on GitHub Pages.
+            © 2025 Yogiswara. All rights reserved. Built with Next.js and hosted on GitHub Pages.
           </p>
         </div>
       </div>
