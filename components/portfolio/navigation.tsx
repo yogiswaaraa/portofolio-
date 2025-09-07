@@ -18,7 +18,7 @@ export function Navigation() {
     <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-md border-b border-border z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <div className="font-bold text-xl text-foreground">Yogiswara Portofioloo</div>
+          <div className="font-bold text-xl text-foreground">Yogiswara Portofolio</div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
